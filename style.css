@@ -1,0 +1,60 @@
+.dt-buttons{
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#example{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+#example_wrapper{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+}
+.card a img{
+    padding: 15px;  
+}
+
+ #img2{
+    width: 75%;
+    margin: auto;
+ }
+
+ #tiempoCiudad{
+    display: flex;
+    justify-content: space-between;
+ }
+ #tiempoCiudad img{
+    width: 200%;
+ }
+
+
+
+/*
+#example_length{
+    width: 48%;
+}
+
+#example_filter{
+    width: 48%;
+}
+
+#example_info{
+    width: 48%;
+}
+
+#example_paginate{
+    width: 48%;
+}
+
+*/

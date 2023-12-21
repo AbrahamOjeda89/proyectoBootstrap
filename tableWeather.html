@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Tabla Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css">
+</head>
+<body>
+    
+    <table id="example" class="table table-striped dt-responsive nowrap">
+        <thead>
+            <tr>
+                <th>Ciudad</th>
+                <th>Región</th>
+                <th>País</th>
+                <th>Temperatura</th>
+                <th>Condiciones</th>
+                <th>Precipitaciones</th>
+                <th>Sensación Térmica</th> 
+                <th>Última Actualización</th>
+            </tr>
+        </thead>
+        <tbody class="tiempo">
+            
+        </tbody>
+        <tfoot>
+            <th>Ciudad</th>
+            <th>Región</th>
+            <th>País</th>
+            <th>Temperatura</th>
+            <th>Condiciones</th>
+            <th>Precipitaciones</th>
+            <th>Sensación Térmica</th>
+            <th>Última Actualización</th>
+        </tfoot>
+    </table>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <script type="module" src="appWeather.js"></script>
+</body>
+</html>
